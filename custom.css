@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+/* Body and basic elements*/
+body {
+  background: #000;
+}
+
+body, h1, h2, h3, h4, h5, h6, h5.card-title {
+  font-family: "New Amsterdam", Sans-Serif; !important;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 0.5px;
+}
+
+h5.card-title {
+  margin-top: 0.5px;
+}
+
+.btn {
+  background: #b4131d;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	margin: 1rem;
+	text-transform: uppercase;
+	width: auto;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: grey;
+}
+
+/* Logo */
+#logo {
+  width: 100px;
+}
+
+/* Movie Cards */
+.movie-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 80px;
+  word-wrap: break-word;
+  border: 0;
+  border-radius: 0rem;
+  overflow: hidden;
+  margin-right: 15px;
+  justify-content: space-between;
+  height: 420px;
+  width: 180px;
+}
+
+@media only screen and (max-width: 765px) {
+  .movie-card {
+  min-width: 180px;
+}
+}
+
+.movie-card > .card-img-top {
+  height: 270px; !important
+}
+
+.movie-card > .card-img, .movie-card > .card-img-top, .movie-card > .card-img-bottom {
+    object-fit: cover; !important
+}
+
+.movie-card p {
+  color: #58c24f;
+}
+
+.movie-card > .card-body {
+  background: #000;
+}
+
+.card-title, .card-text {
+  font-size: 1rem;
+}
+
+/* Navbar */
+.navbar.navbar-default {
+  background-color: transparent !important;
+}
+
+.navbar.navbar-default .navbar-brand {
+  color: #b4131d;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-tabs>li>a, .navbar-light .navbar-nav .nav-pills>li>a, .navbar.navbar-default .navbar-nav .nav-link, .navbar.navbar-default .navbar-nav .nav-tabs>li>a, .navbar.navbar-default .navbar-nav .nav-pills>li>a, .navbar-light ul.nav.navbar-nav>li>a, .navbar.navbar-default ul.nav.navbar-nav>li>a {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.modal-body#intro {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.modal-footer {
+  border-top: none;
+  background: #000;
+}
+
+
+#rating_modal {
+  margin: auto;
+  background: #000;
+}
+
+#movie_img {
+  margin:auto;
+}
+
+ul.nav.navbar-nav>li>a.active {
+  color: #b4131d;
+}
+
+#submit_rating.btn:active, #submit_rating.btn:hover{
+  background-color: #198754; !important
+}
+
+
+#done_rating.btn:active, #done_rating.btn:hover{
+  background-color: #198754; !important
+}
+
+/* Intro Netflix  */
+
+.modal-xl {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-xl .modal-content {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: #000;
+}
+
+
+/* Screen 1: Name Input Form */
+
+#user_name-label {
+  margin-top: 5rem;
+  font-size: 3.5rem;
+}
+
+#input_name .form-group {
+  width: 500px;
+  margin: auto;
+}
+
+#submit_name.btn {
+  font-size: 1.5rem;
+}
+
+input#user_name {
+  font-size: 1.5rem;
+  border: 0.5px 0 0 0;
+  box-shadow: none;
+  border-bottom: 1px solid #666;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+  text-align: center;
+}
+
+/* More Ratings Button */
+#more_ratings {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+
+/* How it works cards */
+.left-col {
+  position:fixed;
+  width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .left-col {
+    position: relative;
+    width: 100%;
+  }
+}
+
+.bslib-card, .well {
+  border: none;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.card-header {
+  font-size: 1.5rem;
+}
+
+
+/* Search Panel */
+#search-label {
+  font-size: 1.5rem;
+}
+
+input#search {
+  font-size: 1.5rem;
+  border: 0.5px 0 0 0;
+  box-shadow: none;
+  border-bottom: 1px solid #666;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
+}
