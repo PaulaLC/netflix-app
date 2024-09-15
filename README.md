@@ -1,8 +1,8 @@
-# Netflix Movie Recommendation Shiny App
+# Netflix Oldies: A Classic Movie Recommendation Shiny App
 
 ## Overview
 
-Welcome to the **Netflix Movie Recommendation Shiny App**! This app uses several recommendation algorithms to suggest movies based on your preferences. Designed in **Shiny**, the app combines user input with  filtering techniques to deliver personalized movie suggestions, offer insights into the recommendation process, and allow you to search for movies. The app is based on a retro style with a subset of classic movies from the popular MovieLense dataset.
+Welcome to **Netflix Oldies**, the app to discover you classic movies based on your preferences throught several recommendation algorithms. Designed in **Shiny**, this app combines user input with  filtering techniques to deliver personalized movie suggestions, offer insights into the recommendation process, and allow you to search for movies. The app is based on a retro style with a subset of classic movies from the popular MovieLense dataset.
 
 ## Features
 
